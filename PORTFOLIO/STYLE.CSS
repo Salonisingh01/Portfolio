@@ -1,0 +1,316 @@
+/*index.html CSS */
+body{
+    background-color: #BBA3AE;
+    height: 1000px;
+}
+
+NAV{
+    height: 45px;
+    width:100%;
+    background-color: #6D123F;
+    font-size: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color:#BBA3AE;
+    text-decoration: none;
+}
+#img{
+    height: 350px;
+    width: 350px;
+    border-top: 2px solid #6D123F;
+    border-radius: 50%;
+    position: fixed;
+    top: 150px;
+    left:100px;
+    background-image:url(mypicc2.jpg);
+    background-size:cover;
+}
+#img:hover{
+    box-shadow: 0 0 100px #6D123F;
+    border-radius: 50%;
+}
+h3{
+    color:#4D376D;
+    font-size: 30px;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: 6D123F;
+    font-size: 50px;
+}
+p{
+    color:#4D376D;
+    font-size: 18px;
+}
+.details{
+    position: fixed ;
+    left: 600px;
+    top:180px;
+}
+#b1{
+    height: 30px;
+    width: 100px;
+    background-color: #BBA3AE;
+    color:darkorchid;
+    border: 2px solid darkorchid;
+    border-radius: 10px;
+}
+#b2{
+    height: 30px;
+    width: 100px;
+    margin-left: 50px;
+    background-color: #BBA3AE;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+}
+#b1:hover{
+    background-color: darkorchid;
+    color:aliceblue;
+
+}
+#b2:hover{
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+#pic{
+    height: 400px;
+    width: 400px;
+    border: 2px solid #6D123F;
+    border-radius: 50%;
+    position: fixed;
+    top: 150px;
+    left:100px;
+    background-image:url(imgg2.jpg);
+    background-size:cover;
+}
+#pic:hover{
+    box-shadow: 0 0 100px #6D123F;
+    border-radius: 50%;
+}
+#me{
+    height: 220px;
+    width: 540px;
+    border-radius: 10%;
+    color: #6D123F;
+    margin-top: 60px;
+    margin-left: 800px;
+    display: flex;
+    justify-content: center;
+}
+#line{
+    height: 0;
+    width: 540px;
+    border: 2px solid #6D123F;
+    margin-left: 800px;
+}
+#me2{
+    height: 180px;
+    width: 540px;
+    border-radius: 10%;
+    color: #6D123F;
+    margin-top: 10px;
+    margin-left: 800px;
+    display: flex;
+    justify-content: center;
+}
+/* SKILLS CSS*/
+#heading{
+    font-size: 35px;
+    height:50px;
+    width: 210px;
+    color: darkmagenta;
+    border-radius: 12%;
+    margin-left: 600px;
+}
+#c{
+    height: 200px;
+    width: 200px;
+    background-image: url(cc.png);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#py{
+    height: 200px;
+    width: 200px;
+    background-image: url(python.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#swift{
+    height: 200px;
+    width: 200px;
+    background-image: url(swift.png);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#css{
+    height: 200px;
+    width: 200px;
+    background-image: url(css.jpg);
+    background-size: cover;
+    margin-top:50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#html{
+    height: 200px;
+    width: 200px;
+    background-image: url(html.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#java{
+    height: 200px;
+    width: 200px;
+    background-image: url(java.jpg);
+    background-size: cover;
+    margin-top:50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#sql{
+    height: 200px;
+    width: 200px;
+    background-image: url(sql.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#js{
+    height: 200px;
+    width: 200px;
+    background-image: url(js.png);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px; 
+}
+#react{
+    height: 220px;
+    width: 250px;
+    background-image: url(react.png);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px; 
+}
+
+#tail{
+    height: 200px;
+    width: 250px;
+    background-image: url(tailwind.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px; 
+}
+
+
+.skill{
+margin-left: 200px;
+ height:250px;
+ width: 1000px;
+ display: flex;
+ justify-content: space-evenly;
+ }
+.skill2{
+    margin-left: 200px;
+    height:250px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    margin-left: 200px;
+}
+
+/* Projects  CSS */
+#landingpage{
+height: 200px;
+width: 440px;
+background-color: aliceblue;
+box-shadow: 0 0 45px #6D123F;
+margin-top: 150px;
+margin-left: 500px;
+background-image: url(Screenshot\ \(17\).png);
+background-size: contain;
+}
+
+#todo{
+ height: 200px;
+ width: 440px;
+ box-shadow: 0 0 45px #6D123F; 
+ margin-top: 100px;
+ margin-left: 500px;
+ background-image: url(WhatsApp\ Image\ 2024-09-12\ at\ 8.29.23\ PM.jpeg);
+ background-size: contain;
+}
+#portfolio{
+ height: 200px;
+ width: 440px;
+ background-color: aliceblue;
+ box-shadow: 0 0 45px #6D123F;
+ margin-top: 100px;
+ margin-left: 500px;
+ background-image: url(Screenshot\ 2024-09-12\ 202546.png);
+ background-size: contain;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: #BBA3AE;
+    margin-top: 400px;
+
+    
+}
+#contact{
+    padding-top: 20px;
+    margin-left: 670px;
+}
+#mail{
+    height:50px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 600px;
+    border: 2px solid black;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#link{
+    height:50px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 600px;
+    border: 2px solid black;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#wp{
+    height:50px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 600px;
+    border: 2px solid black;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
